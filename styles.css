@@ -1,0 +1,43 @@
+/*Lose focus when clicked*/
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+/*Dark mode button transparent*/
+#darkMode {
+	background: none;
+	text-decoration: none;
+}
+#newBtn, #printBtn, #helpBtn {
+	background-color: #303c54;
+	width: 110px;
+	font-weight: bold;
+}
+/*Toolbar inline*/
+ul li {
+	display: inline-block;
+}
+/*Toolbar buttons transparent*/
+ul .btn {
+	background: none;
+}
+ul .btn:hover {
+	opacity: 0.4;
+	transition: 0.5s;
+}
+#toolbar {
+	border-radius: 5px;
+	background-color: #303c54;
+}
+#noteArea {
+	background-color: #FAFAD2;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 18px;
+	height: 500px;
+	width: 100%;
+	overflow: auto;
+	word-wrap: break-word;
+	outline: none;
+	white-space: pre-wrap;
+}
